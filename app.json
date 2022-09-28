@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "HolidayApp",
-    "slug": "HolidayApp",
+    "owner": "kubrik21",
+    "slug": "holiday",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.kubrik21.holiday"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5839484-9285-433d-b450-51b06aa42720"
+      }
     }
   }
 }
